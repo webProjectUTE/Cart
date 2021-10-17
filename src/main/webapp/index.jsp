@@ -61,18 +61,22 @@
 
        <!--Main content-->
         <div class="col-9">
-            <h1 class="textaligncenter margintop5">CD list</h1>
+            <h1 class="textaligncenter">CD list</h1>
             <table class ="box">
                 <tr>
-                    <th>Description</th>
-                    <th class="right">Price</th>
-                    <th>&nbsp;</th>
+                	
+                    <th class="fontsize20"><div>Description</div></th>
+                    
+                    <th class="fontsize20"><div>Price	  </div></th>
+                    
+                    <th><div class="mtb12">&nbsp;</div></th>
+                    
                 </tr>
                 <%@ taglib uri="/WEB-INF/murach.tld" prefix="mma" %>
                 <mma:products>  
                 <tbody class="height100">
                 <tr>
-                    <td>${description}</td>
+                    <td class ="textalignleft">${description}</td>
                     <td class="right">${price}</td>
                     <td><form action="cart" method="post">
                             <input type="hidden" name="productCode" value="${code}">

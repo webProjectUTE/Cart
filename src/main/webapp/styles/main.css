@@ -729,6 +729,12 @@ input[type="submit" i]{
 	text-align: center;
 }
 
+.textalignleft {
+	text-align: left;
+	padding-left: 40px;
+}
+
+
 .fontsize20 {
 	font-size: 20px;
 }
@@ -742,6 +748,11 @@ input[type="submit" i]{
 }
 .margintop5 {
 	margin-top: 5%;
+}
+
+.mtb12 {
+	margin-top: 12px;
+    margin-bottom: 12px;
 }
 .margintop14 {
 	margin-top: 14px;
