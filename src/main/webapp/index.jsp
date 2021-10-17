@@ -24,6 +24,22 @@
     </head>
     <body>
 <div class="container">
+<!-- Button Require -->
+<div class="positivebtn"> 
+<button id="open">
+  Require
+</button>
+
+<div class="modalbtn-container" id="modal_container">
+  <div class="modalbtn">
+    <h1 class="text-black">Survey</h1>
+    <img src="images/cart_10_2_364.png">
+    <button id="close">
+      Close
+    </button>
+  </div>
+</div>
+  </div>
     <div class="row">
         <!--Side bar menu-->
         <ul class="col-3 sidebar-menu box">
@@ -87,8 +103,9 @@
                         </form></td>
                 </tr>
                 </mma:products>
+                </tbody>
             </table>
-            </tbody>
+            
         </div>
     </div>
 </div>

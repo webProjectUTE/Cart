@@ -32,15 +32,17 @@
           
           <%@ taglib uri="/WEB-INF/murach.tld" prefix="mma" %>
           <mma:cart>
+          <tbody class="height100">
             <tr>
               <td>${quantity}</td>
-              <td>${productDescription}</td>
+              <td class="textalignleftandpl">${productDescription}</td>
               <td>${productPrice}</td>
               <td>${total}</td>
             </tr>
           </mma:cart>
-          
+                  </tbody>
         </table>  
+
 		<div class="container textaligncenter">
           <form action="" method="post" class="pad_top">
             <input type="hidden" name="action" value="shop">
