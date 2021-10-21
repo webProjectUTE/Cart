@@ -49,27 +49,23 @@
                     <span class="sidebar-text text-white">Home</span>
                     <span class="sidebar-status"></span>
                 </a></li>
-            <li><a href="#" class="sidebar-item">
+            <li><a href="https://nhatsang-survey.herokuapp.com/" class="sidebar-item">
                 <i class="fab fa-java sidebar-icon text-white"></i>
                 <span class="sidebar-text text-white">Survey</span>
             </a></li>
-            <li><a href="../Download" class="sidebar-item sidebar-item--active">
+            <li><a href="https://nhatsang-download.herokuapp.com/" class="sidebar-item">
                 <i class="fab fa-java sidebar-icon text-white"></i>
                 <span class="sidebar-text text-white">Download</span>
             </a></li>
-            <li><a href="../Cart" class="sidebar-item">
+            <li><a href="#" class="sidebar-item sidebar-item--active">
                 <i class="fab fa-java sidebar-icon text-white"></i>
                 <span class="sidebar-text text-white">Cart</span>
-            </a></li>  
-            <li><a href="../sqlGateway" class="sidebar-item">
-                <i class="fab fa-java sidebar-icon text-white"></i>
-                <span class="sidebar-text text-white">sqlGateway</span>
             </a></li> 
-            <li><a href="../email" class="sidebar-item">
+            <li><a href="https://nhatsang-email.herokuapp.com/" class="sidebar-item">
                 <i class="fab fa-java sidebar-icon text-white"></i>
                 <span class="sidebar-text text-white">Email</span>
             </a></li>
-            <li><a href="../userAdmin" class="sidebar-item">
+            <li><a href="https://nhatsang-userAdmin.herokuapp.com/" class="sidebar-item">
                 <i class="fab fa-java sidebar-icon text-white"></i>
                 <span class="sidebar-text text-white">userAdmin</span>
             </a></li>    
